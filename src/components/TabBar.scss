@@ -1,0 +1,44 @@
+.tabBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 0.5px solid #f0f0f0;
+  padding: 0.6rem 0 2rem;
+  background-color: #ffffff;
+  z-index: 100;
+
+  .tab {
+    border: none;
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+      color: #bdbdbd;
+    }
+
+    span {
+      font-size: 0.75rem;
+      color: #bdbdbd;
+      padding: 0.5rem 0;
+    }
+
+    &.active {
+      svg {
+        fill: #666666;
+      }
+
+      span {
+        color: #666666;
+      }
+    }
+  }
+}
