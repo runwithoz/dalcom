@@ -21,3 +21,57 @@ a {
 .hidden {
   display: none;
 }
+
+.home .mainHeader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  z-index: 100;
+}
+.home .mainHeader .mainLogo {
+  width: 6rem;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+.home .mainHeader .searchBtn {
+  border: none;
+  padding: 0.4rem 1rem;
+  margin: 0 1.2rem 0.5rem;
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #999;
+  background-color: #f1f1f1;
+}
+.home .mainHeader .searchBtn .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.home .main {
+  margin-top: 102.69px;
+  margin-bottom: 102.59px;
+}
+.home .main .swiperWrap .swiper {
+  width: 100%;
+}
+.home .main .swiperWrap .swiper .swiper-pagination-fraction {
+  display: block;
+  width: auto;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  padding: 1% 2% 1.5%;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+.home .main .swiperWrap .swiper img {
+  width: 100%;
+  height: auto;
+}

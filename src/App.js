@@ -74,7 +74,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home cartState={cartState} />} />
+        <Route path="./" element={<Home cartState={cartState} />} />
         <Route
           path="/Goods"
           element={<Goods goods={goods} cartState={cartState} />}

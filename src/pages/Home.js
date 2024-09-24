@@ -19,7 +19,7 @@ const Home = ({ cartState }) => {
         <Link to="/">
           <h1 className="hidden">달콤</h1>
           <img
-            src="images/dalcom-logo.svg"
+            src="https://runwithoz.github.io/react-project-img/dalcom-logo.svg"
             alt="달콤로고"
             className="mainLogo"
           ></img>
@@ -45,10 +45,16 @@ const Home = ({ cartState }) => {
             loop={true}
           >
             <SwiperSlide>
-              <img src="https://runwithoz.github.io/react-project-img/banner1.jpg" />
+              <img
+                src="https://runwithoz.github.io/react-project-img/banner1.jpg"
+                alt="배너"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://runwithoz.github.io/react-project-img/banner2.jpg" />
+              <img
+                src="https://runwithoz.github.io/react-project-img/banner2.jpg"
+                alt="배너"
+              />
             </SwiperSlide>
           </Swiper>
         </div>
