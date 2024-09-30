@@ -16,7 +16,7 @@ const MyPage = ({ cartState }) => {
           로그인/회원가입
         </Link>
       </div>
-      <Link to="/">Q&A 게시판</Link>
+      {/* <Link to="/">Q&A 게시판</Link> */}
     </div>
   );
 };

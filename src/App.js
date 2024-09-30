@@ -89,7 +89,10 @@ function App() {
             />
           }
         />
-        <Route path="/Search" element={<Search />} />
+        <Route
+          path="/Search"
+          element={<Search cartState={cartState} goods={goods} />}
+        />
         <Route path="/MyPage" element={<MyPage cartState={cartState} />} />
 
         <Route

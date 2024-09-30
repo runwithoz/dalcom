@@ -201,6 +201,8 @@
       position: fixed;
       bottom: 0;
       background-color: #ffffff;
+      > a {
+      }
       .checkoutBtn {
         background-color: #70bd4c;
         display: block;
@@ -212,6 +214,9 @@
         font-weight: 500;
         font-size: 1.1rem;
         cursor: pointer;
+        a {
+          color: #ffffff;
+        }
       }
     }
   }

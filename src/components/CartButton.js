@@ -9,7 +9,9 @@ const CartButton = ({ cartState }) => {
       <Link to="/Cart">
         <FiShoppingCart className="cartButton" />
         {cartState && cartState.length ? (
-          <div className="cartItemQty">{cartState.length}</div>
+          <div className="cartItemQty">
+            <span>{cartState.length}</span>
+          </div>
         ) : null}
       </Link>
     </div>

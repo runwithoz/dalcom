@@ -184,7 +184,13 @@ const Cart = ({ goods, cartState, cartDispatch }) => {
             </div>
           </div>
           <div className="checkoutBtnWrap">
-            <div className="checkoutBtn">주문하기</div>
+            {/* <Link to="/MyPage">
+              <div className="checkoutBtn">주문하기</div>
+            </Link> */}
+
+            <Link to="/MyPage" className="checkoutBtn">
+              주문하기
+            </Link>
           </div>
         </div>
       )}
