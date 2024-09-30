@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dalcom/static/css/main.b292eadd.css",
-    "main.js": "/dalcom/static/js/main.f16f31d9.js",
+    "main.css": "/dalcom/static/css/main.2e3bb8fc.css",
+    "main.js": "/dalcom/static/js/main.aaffc0c4.js",
     "static/js/453.879baf09.chunk.js": "/dalcom/static/js/453.879baf09.chunk.js",
     "static/media/NotoSansKR-VariableFont_wght.ttf": "/dalcom/static/media/NotoSansKR-VariableFont_wght.33752a94ca5252213de8.ttf",
     "index.html": "/dalcom/index.html",
-    "main.b292eadd.css.map": "/dalcom/static/css/main.b292eadd.css.map",
-    "main.f16f31d9.js.map": "/dalcom/static/js/main.f16f31d9.js.map",
+    "main.2e3bb8fc.css.map": "/dalcom/static/css/main.2e3bb8fc.css.map",
+    "main.aaffc0c4.js.map": "/dalcom/static/js/main.aaffc0c4.js.map",
     "453.879baf09.chunk.js.map": "/dalcom/static/js/453.879baf09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b292eadd.css",
-    "static/js/main.f16f31d9.js"
+    "static/css/main.2e3bb8fc.css",
+    "static/js/main.aaffc0c4.js"
   ]
 }
